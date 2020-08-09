@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* body style */
 body {
     background-color: #d9dcd6;
 }
 
+/* header section style start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ header {
     color: #ffffff;
 }
 
+/* apply styles to <h1> elements */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* apply styles to seo class within <h1> */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* apply styles to <nav> elements */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +37,30 @@ header nav {
     font-size: 20px;
 }
 
+/* apply style to <ul> elements within <nav> */
 header nav ul {
     list-style-type: none;
 }
 
+/* apply style to <li> elements within <ul> elements of <nav> element */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* header section styles end */
 
+/* apply style to all <a> elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* apply style to all <p> elements */
 p {
     font-size: 16px;
 }
 
+/* apply styles to all elements in hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* apply styles to all elements in float-left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* apply styles to all elements in float-right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* apply styles to all elements in content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* apply styles to all elements in benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/* apply styles to all elements in benefit-lead class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* apply styles to all elements in benefit-brand class */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* apply styles to all elements in benefit-cost class */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* apply styles to <h3> elements with benefit-lead class */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* apply styles to <h3> elements with benefit-brand class */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* apply styles to <h3> elements with benefit-cost class */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* apply styles to <img> elements with benefit-lead class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* apply styles to <img> elements with benefit-brand class */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* apply styles to <img> elements with benefit-cost class */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* apply styles to all elements in .search-engine-optimization class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* apply styles to all elements in .online-reputation-management class */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* apply styles to all elements in .social-media-marketing class */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,6 +187,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 
 .search-engine-optimization img {
     max-height: 200px;
