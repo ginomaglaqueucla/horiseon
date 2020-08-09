@@ -70,6 +70,7 @@ p {
     background-position: center;
 }
 
+/* content section start */
 /* apply styles to all elements in float-left class */
 .float-left {
     float: left;
@@ -88,7 +89,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+/* content section end */
 
+/* benefits section start */
 /* apply styles to all elements in benefits class */
 .benefits {
     margin-right: 20px;
@@ -158,7 +161,7 @@ p {
     max-width: 150px;
 }
 
-/* apply styles to all elements in .search-engine-optimization class */
+/* apply styles to all elements in search-engine-optimization class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -168,7 +171,7 @@ p {
     color: #ffffff;
 }
 
-/* apply styles to all elements in .online-reputation-management class */
+/* apply styles to all elements in online-reputation-management class */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -178,7 +181,7 @@ p {
     color: #ffffff;
 }
 
-/* apply styles to all elements in .social-media-marketing class */
+/* apply styles to all elements in social-media-marketing class */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,41 +191,48 @@ p {
     color: #ffffff;
 }
 
-
+/* apply styles to <img> elements with search-engine-optimization class */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* apply styles to <img> elements with online-reputation-management class */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* apply styles to <img> elements with .social-media-marketing class */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* apply styles to <h2> elements with .search-engine-optimization class */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* apply styles to <h2> elements with online-reputation-management class */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* apply styles to <img> elements with social-media-marketing class */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+/* footer section start */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* apple styles to <h2> elements within <footer> section */
+footer h2 {
     font-size: 20px;
 }
+/* footer section end*/
