@@ -2,7 +2,7 @@
 
 Go to the following link to view mock-up site (https://ginomaglaqueucla.github.io/horiseon/)
 
-If accessing mock-up locally, clone repository from (https://github.com/ginomaglaqueucla/horiseon/) to local directory on computer. Open index.html through your browser and mock-up site will come up.
+If accessing mock-up locally, clone repository from (https://github.com/ginomaglaqueucla/horiseon-gm20.git) to local directory on computer. Open index.html through your browser and mock-up site will come up.
 
 ## Usage 
 
